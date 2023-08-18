@@ -1,0 +1,12 @@
+/* GENERATED FILE */
+import * as React from "react";
+import Svg, { Rect, Line, Polyline } from "react-native-svg";
+
+import { IconProps } from '../lib'
+
+function ListChecks(props: IconProps) {
+  return <Svg viewBox="0 0 256 256" width={props.size} height={props.size}
+fill={props.color} {...props}><Rect width={256} height={256} fill="none" /><Rect x={128} y={64} width={88} height={128} opacity={0.2} /><Line x1={128} y1={128} x2={216} y2={128} fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={16} /><Line x1={128} y1={64} x2={216} y2={64} fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={16} /><Line x1={128} y1={192} x2={216} y2={192} fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={16} /><Polyline points="40 64 56 80 88 48" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={16} /><Polyline points="40 128 56 144 88 112" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={16} /><Polyline points="40 192 56 208 88 176" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={16} /></Svg>;
+}
+
+export default ListChecks;

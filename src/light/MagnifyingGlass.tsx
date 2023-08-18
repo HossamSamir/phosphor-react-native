@@ -1,0 +1,11 @@
+/* GENERATED FILE */
+import * as React from "react";
+import Svg, { Rect, Circle, Line } from "react-native-svg";
+
+import { IconProps } from '../lib'
+
+function MagnifyingGlass(props: IconProps) {
+  return <Svg viewBox="0 0 256 256" width={props.size} height={props.size} {...props}><Rect width={256} height={256} fill="none" /><Circle cx={112} cy={112} r={80} fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={12}  /><Line x1={168.57} y1={168.57} x2={224} y2={224} fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={12} /></Svg>;
+}
+
+export default MagnifyingGlass;

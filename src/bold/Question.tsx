@@ -1,0 +1,11 @@
+/* GENERATED FILE */
+import * as React from "react";
+import Svg, { Rect, Circle, Path } from "react-native-svg";
+
+import { IconProps } from '../lib'
+
+function Question(props: IconProps) {
+  return <Svg viewBox="0 0 256 256" width={props.size} height={props.size} {...props}><Rect width={256} height={256} fill="none" /><Circle cx={128} cy={180} r={16} fill={props.color} /><Circle cx={128} cy={128} r={96} fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={24}  /><Path d="M128,140v-8c17.67,0,32-12.54,32-28s-14.33-28-32-28S96,88.54,96,104v4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={24} /></Svg>;
+}
+
+export default Question;

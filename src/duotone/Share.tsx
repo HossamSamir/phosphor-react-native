@@ -1,0 +1,12 @@
+/* GENERATED FILE */
+import * as React from "react";
+import Svg, { Rect, Polygon, Path } from "react-native-svg";
+
+import { IconProps } from '../lib'
+
+function Share(props: IconProps) {
+  return <Svg viewBox="0 0 256 256" width={props.size} height={props.size}
+fill={props.color} {...props}><Rect width={256} height={256} fill="none" /><Polygon points="176 152 224 104 176 56 176 152" opacity={0.2} /><Polygon points="176 152 224 104 176 56 176 152" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={16} /><Path d="M192,216H40a8,8,0,0,1-8-8V88" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={16} /><Path d="M72,176a96,96,0,0,1,93-72h11" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={16} /></Svg>;
+}
+
+export default Share;
